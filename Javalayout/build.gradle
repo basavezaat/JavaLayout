@@ -6,13 +6,6 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.8.+'
     }
 }
-
-allprojects {
-    repositories {
-        mavenCentral()
-    }
-}
-
 apply plugin: 'android'
 
 android {
